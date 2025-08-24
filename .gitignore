@@ -1,0 +1,43 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.ipynb_checkpoints/
+
+# Virtual environments
+.env
+.venv/
+env/
+venv/
+ENV/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# Dataset (keep only data.yaml, ignore raw images if too big)
+dataset/
+train/
+valid/
+test/
+
+# YOLO runs and cache
+runs/
+*.pt
+*.onnx
+*.engine
+*.trt
+*.tflite
+*.pb
+*.saved_model/
+
+# Logs
+*.log
+wandb/
+tensorboard/
+*.DS_Store
+
+# OS-specific
+Thumbs.db
+.DS_Store
