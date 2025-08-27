@@ -1,0 +1,13 @@
+train: dataset/train/images
+val: dataset/valid/images
+test: dataset/test/images
+
+nc: 1
+names: ['Indian-Farms']
+
+roboflow:
+  workspace: farmland-wdqqo
+  project: small-dataset-pvmkq
+  version: 4
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/farmland-wdqqo/small-dataset-pvmkq/dataset/4
