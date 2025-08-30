@@ -1,6 +1,6 @@
-train: F:/Research/farmland_seg_v4/dataset/train/images
-val: F:/Research/farmland_seg_v4/dataset/valid/images
-test: F:/Research/farmland_seg_v4/dataset/test/images
+train: dataset/train/images
+val: dataset/valid/images
+test: dataset/test/images
 
 nc: 1
 names: ['Indian-Farms']
